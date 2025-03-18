@@ -1,49 +1,136 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人资产管理咨询</title>
-    <link rel="stylesheet" href="style.css">
+    <title>個人トレード & 自由取引</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f8f9fa;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #1abc9c;
+        }
+        .hero {
+            background: url('https://raw.githubusercontent.com/YANG8866-CN/YANG8866-CN.github.io/main/images/kanchanara-dVAW3YDHtSw-unsplash.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 120px 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+            font-size: 24px;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            margin-bottom: 30px;
+            transition: transform 0.3s;
+        }
+        section:hover {
+            transform: scale(1.02);
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .image-container img {
+            width: 45%;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>个人资产管理咨询</h1>
+        <h1>個人トレード & 自由取引</h1>
         <nav>
             <ul>
-                <li><a href="index.html">主页</a></li>
-                <li><a href="about.html">关于我们</a></li>
-                <li><a href="services.html">服务项目</a></li>
-                <li><a href="portfolio.html">客户案例</a></li>
-                <li><a href="blog.html">博客</a></li>
-                <li><a href="contact.html">联系我们</a></li>
+                <li><a href="#about">私たちについて</a></li>
+                <li><a href="#services">取引戦略</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
             </ul>
         </nav>
     </header>
-
+    
     <section class="hero">
-        <h2>专业的资产管理与咨询服务</h2>
-        <p>我们致力于为个人和企业提供定制化的资产管理和投资咨询服务，帮助您实现财务目标。</p>
-        <a href="services.html" class="btn">了解我们的服务</a>
+        <h2>自由な取引で資産を増やす</h2>
+        <p>個人トレードを通じて経済的な自由を手に入れましょう</p>
     </section>
-
-    <section class="features">
-        <div class="feature">
-            <h3>定制化方案</h3>
-            <p>根据您的需求和目标，制定个性化的资产管理策略。</p>
-        </div>
-        <div class="feature">
-            <h3>专业团队</h3>
-            <p>由经验丰富的专业人士组成，确保为您提供最佳建议。</p>
-        </div>
-        <div class="feature">
-            <h3>持续支持</h3>
-            <p>我们提供持续的支持和咨询，确保您的投资始终处于最佳状态。</p>
+    
+    <section id="about">
+        <h2>私たちについて</h2>
+        <p>個人トレーダーとして市場分析を行い、仮想通貨や株式の取引を行っています。</p>
+        <div class="image-container">
+            <img src="https://raw.githubusercontent.com/YANG8866-CN/YANG8866-CN.github.io/main/images/rc-xyz-nft-gallery-UqILKDhWiFw-unsplash.jpg" alt="私たちについて">
         </div>
     </section>
-
+    
+    <section id="services">
+        <h2>取引戦略</h2>
+        <ul>
+            <li>仮想通貨・株式の短期・長期投資</li>
+            <li>市場動向の分析と予測</li>
+            <li>リスク管理と資金管理戦略</li>
+        </ul>
+        <div class="image-container">
+            <img src="https://raw.githubusercontent.com/YANG8866-CN/YANG8866-CN.github.io/main/images/markus-spiske-XrIfY_4cK1w-unsplash.jpg" alt="取引戦略">
+        </div>
+    </section>
+    
+    <section id="contact">
+        
+        
+        
+        <h2>お問い合わせ</h2>
+        <p>Email: d752101051@gmail.com</p>
+        <p>電話: 090-1213-1787</p>
+        <div class="image-container">
+            <img src="https://raw.githubusercontent.com/YANG8866-CN/YANG8866-CN.github.io/main/images/OIP%20(2).jpg" alt="お問い合わせ">
+        </div>
+    </section>
+    
     <footer>
-        <p>&copy; 2025 个人资产管理咨询 | <a href="privacy.html">隐私政策</a></p>
+        
+        <p>所有者: YANG HAO</p>
+        
+        
+        <p>&copy; 2025 個人トレード & 自由取引</p>
     </footer>
 </body>
 </html>
